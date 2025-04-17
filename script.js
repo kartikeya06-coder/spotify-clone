@@ -34,7 +34,7 @@ let stopExecution = false;
 let currAudio = null;
 
 async function playSong(i) {
-    let api = await fetch("http://127.0.0.1:3000/Spotify_clone/Songs/");
+    let api = await fetch("https://kartikeya06-coder.github.io/spotify-clone/Songs/");
     // let data = await api.json();
     let data = await api.text();
     // console.log(data);
