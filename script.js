@@ -39,7 +39,7 @@ async function playSong(i) {
     
     // let link = div.querySelectorAll("a")[i + 1].href;
     let link = songs[i];
-    currSong = div.querySelectorAll("a")[i + 1].innerText.slice(0, -4);
+    // currSong = div.querySelectorAll("a")[i + 1].innerText.slice(0, -4);
     // console.log(currSong);
 
     if (currAudio) {
